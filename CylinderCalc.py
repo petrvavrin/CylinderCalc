@@ -15,7 +15,8 @@ else:
     exit(0)
 
 if choice == '1':
-    print('You chose volume')
+    print('You chose volume:\n'
+          'V=π*r^2*v\n')
     height = input('Enter h - Height of the cylinder\n')
     radius = input('Enter r - Radius of the base\n')
     height = int(height)
@@ -23,9 +24,12 @@ if choice == '1':
     print(f'Result is: {cylinder_volume()}')
 
 elif choice == '2':
-    print('You chose surface')
+    print('You chose surface:\n'
+          '2*π*r*(r+v)')
     height = input('Enter h - Height of the cylinder\n')
     radius = input('Enter r - Radius of the base\n')
     height = int(height)
     radius = int(radius)
     print(f'Result is: {cylinder_surface()}')
+
+#√
